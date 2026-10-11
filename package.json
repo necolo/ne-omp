@@ -11,6 +11,15 @@
     "extensions/**/*.ts",
     "extensions/**/*.js"
   ],
+  "omp": {
+    "features": {
+      "theme": {
+        "description": "Interactive theme picker with live preview",
+        "default": false,
+        "extensions": ["extensions/theme/index.ts"]
+      }
+    }
+  },
   "devDependencies": {
     "@earendil-works/pi-tui": "1.2.0",
     "@oh-my-pi/pi-ai": "18.10.0",
