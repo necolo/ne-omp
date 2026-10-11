@@ -4,3 +4,4 @@ build
 
 extensions/*
 !extensions/theme
+!extensions/project

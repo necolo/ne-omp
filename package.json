@@ -17,6 +17,11 @@
         "description": "Interactive theme picker with live preview",
         "default": false,
         "extensions": ["extensions/theme/index.ts"]
+      },
+      "project": {
+        "description": "Quickly switch between projects and start a fresh session",
+        "default": false,
+        "extensions": ["extensions/project/index.ts"]
       }
     }
   },
