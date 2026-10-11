@@ -1,0 +1,22 @@
+{
+  "name": "ne-omp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Necolo's extensions for oh-my-pi (omp).",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "files": [
+    "extensions/**/*.ts",
+    "extensions/**/*.js"
+  ],
+  "devDependencies": {
+    "@earendil-works/pi-tui": "1.2.0",
+    "@oh-my-pi/pi-ai": "18.10.0",
+    "@oh-my-pi/pi-coding-agent": "18.10.0",
+    "@oh-my-pi/pi-tui": "18.10.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3"
+  }
+}
