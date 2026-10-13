@@ -5,3 +5,4 @@ build
 extensions/*
 !extensions/theme
 !extensions/project
+!extensions/tree-delete

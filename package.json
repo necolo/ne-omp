@@ -22,6 +22,11 @@
         "description": "Quickly switch between projects and start a fresh session",
         "default": false,
         "extensions": ["extensions/project/index.ts"]
+      },
+      "tree-delete": {
+        "description": "Session tree with confirmed subtree deletion and journal backups",
+        "default": false,
+        "extensions": ["extensions/tree-delete/index.ts"]
       }
     }
   },
